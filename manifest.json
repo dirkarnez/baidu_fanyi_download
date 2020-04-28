@@ -1,0 +1,18 @@
+{
+  "name": "Baidu Fanyi Download",
+  "description" : "Download Baidu Fanyi Playback",
+  "version": "1.0",
+  "browser_action": {
+    "default_icon": "icon.png"
+  },
+  "permissions": [
+    "activeTab"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://fanyi.baidu.com/*"],
+      "js": ["index.js"]
+    }
+  ],
+  "manifest_version": 2
+}
