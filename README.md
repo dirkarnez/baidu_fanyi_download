@@ -1,3 +1,3 @@
-Replay Media
+Baidu Fanyi Download
 =============
-A Chrome extension that automatically loops `file://` media opened in Chrome
+A Chrome extension that downloads Baidu Fanyi playback
